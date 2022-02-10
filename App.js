@@ -1,12 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
- const logo = {
+const logo = {
   uri: 'https://reactnative.dev/img/tiny_logo.png',
   width: 64,
   height: 64
@@ -22,16 +14,23 @@ import {
   TextInput
 } from 'react-native';
 import MyFlatList from './Components/MyFlatList';
+import MyFlexDim from './Components/MyFlexDim';
+import MyPercentageDim from './Components/MyPercentageDim';
 import MyScrollView from './Components/MyScrollView';
+import MySectionList from './Components/MySectionList';
+
 
 const App = () => {
 
 
   return (
-      <View>
-        {/* <MyFlatList/> */}
-        {/* <MyScrollView/> */}
-      </View>
+    <MyPercentageDim/>
+      // // <View>
+      //   {/* <MyFlatList/> */}
+      //   {/* <MyScrollView/> */}
+      //   {/* <MySectionList/> */}
+      //   {/* <MyFlexDim/> */}
+      // // </View>
 
   );
 };
